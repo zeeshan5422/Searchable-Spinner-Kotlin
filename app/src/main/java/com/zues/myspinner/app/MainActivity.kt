@@ -30,25 +30,6 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(baseContext, s, Toast.LENGTH_SHORT).show()
     }
 
-    private fun getListOfItemsFromModel(): List<Any> {
-        return listOf(
-            "A 45",
-            "B 45",
-            "C f",
-            "D v",
-            "E f",
-            "Fff",
-            "Ffa",
-            "G",
-            "H",
-            "Z",
-            "Y",
-            "X",
-            "W",
-            "L"
-        )
-    }
-
     private fun getListOfItems(): List<myModel> {
         return listOf(
             myModel(1, "A"),
